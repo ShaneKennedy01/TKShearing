@@ -1,0 +1,118 @@
+
+
+ .container {
+	max-width: 400px !important; /* Set the maximum width of the container */
+    margin: 0 auto;
+	padding: 20px;
+} 
+
+.parallax {
+  /* The image used */
+  background-image: url("images/para2.jpg");
+
+  /* Set a specific height */
+  min-height: 700px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center 30%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+  .navbar {
+    height: 80px; /* Adjust the height as needed */
+    padding: 10px 20px; /* Adjust the padding as needed */
+	background-color: #ff7f50 !important;
+	color: white;
+}
+
+.navbar-brand {
+    font-size: 1.5rem; /* Adjust the font size as needed */
+}
+.logo{
+	width: 80px;
+	height: auto;
+	margin-right: 20px;
+	
+}
+.logo.animated {
+  width: 80px; /* Adjust size if needed */
+  height: auto;
+}
+.carousel-item img {
+    width: 120%;
+    height: 550px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+  .bottom-images img {
+            width: 100%; /* Set width to 100% to fill the column */
+            height: auto; /* Maintain aspect ratio */
+			padding-top: 20px;
+
+        }  
+.bottomSection{
+	margin: 20px;
+}
+		
+.footer {
+  background-color: black; /* Set the background color to black */
+  color: white; /* Set the text color to white */
+  padding: 20px; /* Add padding for spacing */
+  text-align: center; /* Center align text */
+}
+ .form{
+	 padding: 20px;
+ }
+ /* Hover Effect Styles */
+.image-link {
+  position: relative;
+  overflow: hidden;
+  border-radius: 30px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay .text {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.image-link:hover .overlay {
+  opacity: 1;
+}
+ .bottomSection .card {
+      border: none;
+    }
+
+ /* Custom CSS to remove blue links under images */
+  .image-link {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit color from parent */
+  }
+
+  .image-link:hover {
+    text-decoration: none; /* Remove underline on hover */
+    color: inherit; /* Inherit color from parent on hover */
+  }
+   /* Custom CSS for Jumbotron */
+  .jumbotron.feature {
+    background-color: black;
+    color: white;
+    margin-bottom: 0; /* Remove default bottom margin */
+  }
