@@ -35,7 +35,7 @@ class SiteNavbar extends HTMLElement {
                     <li><hr class="dropdown-divider"></li>
                     <li><a class="dropdown-item" href="cutters.html">Cutters</a></li>
                     <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="grinders.html">Grinders</a></li>
+                    <li><a class="dropdown-item" href="grinders.html">Grinding</a></li>
                     <li><hr class="dropdown-divider"></li>
                     <li><a class="dropdown-item" href="clothing.html">Clothing</a></li>
                     <li><hr class="dropdown-divider"></li>
