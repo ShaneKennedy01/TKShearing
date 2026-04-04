@@ -1,6 +1,14 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 
+main {
+    flex: 1;
+}
 
- .container {
+.container {
 	max-width: 400px !important; /* Set the maximum width of the container */
     margin: 0 auto;
 	padding: 20px;
