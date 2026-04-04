@@ -3,7 +3,7 @@ class SiteNavbar extends HTMLElement {
     this.innerHTML = `
       <style>
         .navbar {
-          height: 80px;
+          height: 100px;
           padding: 10px 20px;
           background-color: #cc9900 !important;
           color: white;
@@ -35,7 +35,7 @@ class SiteNavbar extends HTMLElement {
           background-color: #eaeaea;
         }
 
-        /* ✅ MOBILE OVERRIDES */
+        /* MOBILE OVERRIDES */
         @media (max-width: 991.98px) {
           .navbar-collapse {
             background-color: #f9f9f9 !important;
